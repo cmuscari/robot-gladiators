@@ -69,6 +69,8 @@ var startGame = function () {
   for (var i = 0; i < enemyInfo.length; i++) {
     if (playerInfo.health > 0) {
       window.alert("Welcome to Robot Gladiators!  Round " + (i + 1));
+      
+      debugger;
 
       var pickedEnemyObj = enemyInfo[i];
 
